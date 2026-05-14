@@ -1,0 +1,119 @@
+.dashboard-wrapper {
+  padding: 40px 20px;
+  background: linear-gradient(to right, #f8fbff, #eef5ff);
+  min-height: 100vh;
+}
+
+/* Header */
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitle {
+  color: #0d6efd;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.dashboard-header h2 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.header-text {
+  color: #6c757d;
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Card */
+.dashboard-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Icon Box */
+.icon-box {
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+}
+
+/* Colors */
+.blue { background: linear-gradient(135deg, #0d6efd, #4dabf7); }
+.green { background: linear-gradient(135deg, #20c997, #38d9a9); }
+.yellow { background: linear-gradient(135deg, #f59f00, #ffd43b); }
+.teal { background: linear-gradient(135deg, #0dcaf0, #66d9e8); }
+.purple { background: linear-gradient(135deg, #845ef7, #b197fc); }
+
+/* Text */
+.dashboard-card h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.dashboard-card p {
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+/* Buttons */
+.card-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Button Colors */
+.blue-btn {
+  background: #0d6efd;
+  color: #fff;
+}
+
+.green-btn {
+  background: #20c997;
+  color: #fff;
+}
+
+.yellow-btn {
+  background: #f59f00;
+  color: #fff;
+}
+
+.teal-btn {
+  background: #0dcaf0;
+  color: #fff;
+}
+
+.purple-btn {
+  background: #845ef7;
+  color: #fff;
+}
+
+/* Button Hover */
+.card-btn:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}

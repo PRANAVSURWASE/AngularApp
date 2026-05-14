@@ -1,0 +1,97 @@
+.container {
+  max-width: 1200px;
+}
+
+/* Title */
+h3 {
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+/* Card */
+.card {
+  border-radius: 16px;
+  border: none;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+/* Table */
+.table {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+/* Header */
+.table thead {
+  background: linear-gradient(135deg, #0d6efd, #0dcaf0);
+  color: #fff;
+}
+
+.table th {
+  border: none;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Cells */
+.table td {
+  border: none;
+  padding: 14px;
+  text-align: center;
+}
+
+/* Row hover */
+.table tbody tr {
+  transition: all 0.25s ease;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f7ff;
+  transform: scale(1.01);
+}
+
+/* Badges */
+.badge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+/* Custom status colors */
+.bg-warning {
+  background: linear-gradient(135deg, #ffc107, #ffe066) !important;
+  color: #333 !important;
+}
+
+.bg-danger {
+  background: linear-gradient(135deg, #ff4d4f, #ff7875) !important;
+}
+
+.bg-success {
+  background: linear-gradient(135deg, #28a745, #51cf66) !important;
+}
+
+/* Button */
+.btn-danger {
+  border-radius: 20px;
+  padding: 5px 14px;
+  transition: 0.3s ease;
+}
+
+.btn-danger:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 10px rgba(255, 77, 79, 0.4);
+}
+
+/* No action text */
+.text-muted {
+  font-size: 0.85rem;
+}
+
+/* Zebra soft */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9fbff;
+}

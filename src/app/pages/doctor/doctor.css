@@ -1,0 +1,65 @@
+.container {
+  max-width: 1100px;
+}
+
+/* Card */
+.card {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  background: #ffffff;
+}
+
+/* Heading */
+h3 {
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+/* Table */
+.table {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+/* Header */
+.table thead {
+  background: linear-gradient(135deg, #0d6efd, #0dcaf0);
+  color: #fff;
+}
+
+.table th {
+  font-weight: 600;
+  border: none;
+}
+
+/* Rows */
+.table td {
+  border: none;
+  padding: 14px;
+  vertical-align: middle;
+}
+
+/* Row hover */
+.doctor-row {
+  transition: all 0.25s ease;
+}
+
+.doctor-row:hover {
+  background-color: #f1f7ff;
+  transform: scale(1.01);
+}
+
+/* Badge */
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+  background: linear-gradient(135deg, #0d6efd, #4dabf7);
+}
+
+/* Zebra effect (soft) */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9fbff;
+}
